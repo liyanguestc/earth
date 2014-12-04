@@ -10,7 +10,6 @@ var earthMesh;
 
 function Init(){
         scene = new THREE.Scene();
-  
        //setup camera
  		camera = new LeiaCamera();
         camera.position.copy(new THREE.Vector3(_camPosition.x, _camPosition.y, _camPosition.z));
