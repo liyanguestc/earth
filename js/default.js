@@ -44,7 +44,7 @@ function Init(){
  {
  	requestAnimationFrame( animate );
     renderer.setClearColor(new THREE.Color().setRGB(0.0, 0.0, 0.0)); 
-   earthMesh.rotation.y  += 1/32 * delta;
+   earthMesh.rotation.y  = LEIA.time;
 	renderer.Leia_render({
      scene:scene, 
      camera:camera,
